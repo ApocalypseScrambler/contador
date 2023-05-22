@@ -6,10 +6,6 @@ createApp({
       contador: 0
     }
   },
-  created() {
-    this.sumar(),
-      this.restar()
-  },
   methods: {
     sumar() {
       return this.contador++
